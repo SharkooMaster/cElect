@@ -1,0 +1,3 @@
+/mnt/t/githubRepos/cElect/build/CMakeFiles/run.dir
+/mnt/t/githubRepos/cElect/build/CMakeFiles/edit_cache.dir
+/mnt/t/githubRepos/cElect/build/CMakeFiles/rebuild_cache.dir

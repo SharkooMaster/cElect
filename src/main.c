@@ -69,3 +69,13 @@ e *NOT(e *a)
 	b->bit = (a->bit == 1) ? 0 : 1;
 	return b;
 }
+
+int main(void)
+{
+	e *input1 = (e*)malloc(sizeof(e)); input1->bit = 1;
+	e *input2 = (e*)malloc(sizeof(e)); input2->bit = 1;
+
+	e *_1 = AND(input1, input2);
+	printf("result: %d\n", _1->bit);
+	return 0;
+}
